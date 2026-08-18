@@ -4,7 +4,7 @@ WANDR is a benchmark for wide and deep research: structured, high-volume informa
 work that requires broad discovery, extensive enrichment, systematic extraction,
 precise entity disambiguation, and evidence-backed answer synthesis.
 
-See the technical report in [references](reference/wandr_paper.pdf).
+See the technical report on [arXiv](https://arxiv.org/abs/2608.14747).
 
 Current implementation is split into four independent layers:
 
