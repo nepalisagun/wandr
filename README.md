@@ -4,7 +4,7 @@ WANDR is a benchmark for wide and deep research: structured, high-volume informa
 work that requires broad discovery, extensive enrichment, systematic extraction,
 precise entity disambiguation, and evidence-backed answer synthesis.
 
-See the technical report in [references](reference/wandr_paper.pdf).
+See the technical report on [arXiv](https://arxiv.org/abs/2608.14747).
 
 Current implementation is split into four independent layers:
 
@@ -235,3 +235,17 @@ when reusing or redistributing it.
   `wandr/stdio.log`. Missing reward files are verifier failures, not zero scores.
 - Slow first run: allow time for the Docker or E2B image build and locked Python
   dependency installation. Later runs reuse those caches.
+
+## Citation
+
+```bibtex
+@misc{polshkov2026wandr,
+  title={WANDR: A Benchmark for Wide and Deep Research},
+  author={Polshkov, Vitaliy and Pitera, Marcin and Yang, Jeremy and Priemko, Kirill and Gaiduk, Maksim and Nikolenko, Aleksandr and Bykov, Denis and Southern, Clare and Yarats, Denis and Ma, Jerry},
+  year={2026},
+  eprint={2608.14747},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  url={https://arxiv.org/abs/2608.14747},
+}
+```
